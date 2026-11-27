@@ -1,0 +1,7 @@
+name = "logos-email-inbound"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+
+[vars]
+PLATFORM_URL = "https://plataforma.logosbpo.com.br"
+# INBOUND_WEBHOOK_SECRET: definir com `npx wrangler secret put INBOUND_WEBHOOK_SECRET`
